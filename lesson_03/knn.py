@@ -41,7 +41,7 @@ class KNN(object):
             else :
                 k_dict[type] = 1
 
-        k_s = sorted(k_dict,key=lambda x:x[0])
+        k_s = sorted(k_dict,key=lambda x:x[1])
         return k_s[0]
 
 
